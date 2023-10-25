@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Bai Jamjuree SemiBold, sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  max-width: 1110px;
+  margin: auto 2rem;
+}
+.btn {
+  width: 22.7rem;
+  height: 5.6rem;
+  border-radius: 2.8rem;
+  background: #26bba4;
+  box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.5),
+    0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 3rem; /* 166.667% */
+  text-decoration: none;
+  letter-spacing: 0.05rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:nth-child(2) {
+    background: #6174ff;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1),
+      0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+  }
+  &:active{
+    opacity: 0.7;
+  }
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: contain;
+  background-image: url(../images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+header,
+section,
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.forTitle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    color: #4c545c;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: 600;
+    letter-spacing: -0.0587rem;
+  }
+  p {
+    margin-top: 1.9rem;
+    width: 75rem;
+    color: #9eabb2;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: 0.015rem;
+  }
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    .logo {
+      margin-top: 12.8rem;
+    }
+    h1 {
+      margin: 5.6rem 0 1.8rem;
+      color: #4c545c;
+      text-align: center;
+      font-size: 4.6rem;
+      font-weight: 600;
+      letter-spacing: -0.075rem;
+    }
+    .topP,
+    p {
+      width: 72rem;
+      color: #9eabb2;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 400;
+      line-height: 3rem;
+      letter-spacing: 0.015rem;
+    }
+    .buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.6rem;
+      margin-top: 4.9rem;
+    }
+  }
+}
+.PC {
+  .container {
+    .forMainPc {
+      margin-top: 20rem;
+      position: relative;
+      transform: translateX(61rem);
+      width: 35rem;
+      display: flex;
+      flex-direction: column;
+      gap: 5.6rem;
+      .pcImg {
+        position: absolute;
+        top: -8rem;
+        left: -105rem;
+        width: 80.2rem;
+      }
+      .card {
+        width: 350px;
+        transform: translateX(-120px);
+        h3 {
+          color: #4c545c;
+          font-size: 2.4rem;
+          font-weight: 600;
+          letter-spacing: -0.0391rem;
+        }
+        p {
+          margin-top: 1.5rem;
+          color: #9eabb2;
+          font-size: 1.6rem;
+          font-weight: 400;
+          line-height: 3rem;
+          letter-spacing: 0.012rem;
+        }
+      }
+    }
+  }
+}
+.MOBILE {
+  .container {
+    margin-top: 200px;
+    img {
+      margin-top: 10rem;
+      // transform: translateX(10rem);
+      width: 90.5rem;
+    }
+  }
+}
+.workfollow {
+  .container {
+    .three {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 7.6rem;
+      .card {
+        text-align: center;
+        width: 35rem;
+        img {
+          width: 3.6rem;
+        }
+        h4 {
+          color: #4c545c;
+          text-align: center;
+          font-size: 2.4rem;
+          font-weight: 600;
+          letter-spacing: -0.0391rem;
+          margin-top: 4rem;
+        }
+        p {
+          margin-top: 1.5rem;
+          color: #9eabb2;
+          text-align: center;
+          font-size: 1.6rem;
+          font-weight: 400;
+          line-height: 3rem;
+          letter-spacing: 0.012rem;
+        }
+      }
+    }
+    .logos {
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 15rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      img {
+        image-rendering: optimizeQuality;
+        zoom: 1rem;
+      }
+    }
+  }
+}
+.downloud {
+  .container {
+    margin: 15rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h1 {
+      margin: 5.6rem 0 1.8rem;
+      color: #4c545c;
+      text-align: center;
+      font-size: 4.6rem;
+      font-weight: 600;
+      letter-spacing: -0.075rem;
+    }
+    .topP,
+    p {
+      width: 72rem;
+      color: #9eabb2;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 400;
+      line-height: 3rem;
+      letter-spacing: 0.015rem;
+    }
+    .buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.6rem;
+      margin-top: 4.9rem;
+    }
+  }
+}
+footer {
+  background: rgba(158, 171, 178, 0.1002);
+  align-items: center;
+  height: 15rem;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16.5rem;
+    .forTxt {
+      height: 7.2rem;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      column-gap: 3rem;
+      svg {
+        margin-right: 13.5rem;
+      }
+      a {
+        color: #4c545c;
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 3rem;
+        letter-spacing: 0.0135rem;
+        width: 16rem;
+        text-decoration: none;
+        &:active{
+          color: #26BBA4;
+        }
+      }
+    }
+    .social {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+      a:active{
+        svg{
+          transform: scale(1.1);
+          fill: #26BBA4;
+
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1180px) {
+  body {
+    zoom: 0.85;
+  }
+}
+@media screen and (max-width: 1014px) {
+  body {
+    zoom: 0.75;
+  }
+}
+@media screen and (max-width: 892px) {
+  body {
+    zoom: 0.67;
+  }
+}
+@media screen and (max-width: 785px) {
+  body {
+    zoom: 0.60;
+  }
+}
+@media screen and (max-width: 685px) {
+  body{
+    zoom: unset;
+    background-image: url(../images/bg-header-mobile.png);
+  }
+  .btn{
+    width: 31.1rem;
+    &:hover{
+      transform: scale(unset);
+    }
+  }
+  .container {
+    max-width: 31.1rem;
+    margin: auto 2rem;
+  }
+  .forTitle {
+    width: 31rem;
+    h2{
+      width: 31rem;
+    }
+    p {
+      width: 31.1rem;
+      font-size: 1.6rem;
+    }
+  }
+  header {
+    .container {
+      .logo {
+        margin-top: 12.5rem;
+      }
+      h1 {
+        margin: 5.6rem 0 1.8rem;
+        font-size: 3.2rem;
+        letter-spacing: -0.052rem;
+      }
+      .topP,
+      p {
+        font-size: 2.5rem;
+        letter-spacing: 0.012rem;
+        width: 31.1rem;
+      }
+      .buttons {
+        flex-direction: column;
+      }
+    }
+  }
+  .PC {
+    .container {
+      .forMainPc {
+        transform: unset;
+        width: 35rem;
+        gap: 5.6rem;
+        margin-top: 40rem;
+        .pcImg {
+          top: -30rem;
+          left: 0rem;
+          width: 31rem;
+        }
+        .card {
+          margin-top: 2rem;
+          width: 31rem;
+          transform: translateX(10px);
+          h3 {
+            text-align: center;
+            font-size: 2.4rem;
+          }
+          p {
+            width: 30rem;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  .MOBILE {
+    .container {
+      margin-top: 0px;
+      img {
+        transform: unset;
+        width: 31rem;
+      }
+    }
+  }
+  .workfollow {
+    .container {
+      .three {
+        flex-direction: column;
+        gap: 5rem;
+        .card {
+          width: 31rem;
+        }
+      }
+      .logos {
+        margin-top: 15rem;
+        flex-direction: column;
+        gap: 8rem;
+      }
+    }
+  }
+  .downloud {
+    .container {
+      h1 {
+        font-size: 2.8rem;
+      }
+      .topP,
+      p {
+        width: 30rem;
+      }
+      .buttons {
+        flex-direction: column;
+      }
+    }
+  }
+  footer {
+    height: unset;
+    padding-bottom: 5rem;
+    .container {
+      flex-direction: column;
+      width: 31rem;
+      text-align: center;
+      gap: 5rem;
+      .forTxt {
+        height: unset;
+        gap: 5rem;
+        column-gap: unset;
+        svg {
+          margin-right: unset;
+          margin-bottom: 3rem;
+        }
+      }
+      .social {
+        display: flex;
+        gap: 4rem;
+        align-items: center;
+        a:active{
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}

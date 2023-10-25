@@ -1,0 +1,432 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Bai Jamjuree SemiBold, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto 2rem;
+}
+
+.btn {
+  width: 22.7rem;
+  height: 5.6rem;
+  border-radius: 2.8rem;
+  background: #26bba4;
+  box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.5), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 3rem; /* 166.667% */
+  text-decoration: none;
+  letter-spacing: 0.05rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn:nth-child(2) {
+  background: #6174ff;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+}
+.btn:active {
+  opacity: 0.7;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: contain;
+  background-image: url(../images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+header,
+section,
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.forTitle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.forTitle h2 {
+  color: #4c545c;
+  margin-top: 150px;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 600;
+  letter-spacing: -0.0587rem;
+}
+.forTitle p {
+  margin-top: 1.9rem;
+  width: 75rem;
+  color: #9eabb2;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: 0.015rem;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+header .container .logo {
+  margin-top: 12.8rem;
+}
+header .container h1 {
+  margin: 5.6rem 0 1.8rem;
+  color: #4c545c;
+  text-align: center;
+  font-size: 4.6rem;
+  font-weight: 600;
+  letter-spacing: -0.075rem;
+}
+header .container .topP,
+header .container p {
+  width: 72rem;
+  color: #9eabb2;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: 0.015rem;
+}
+header .container .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  margin-top: 4.9rem;
+}
+
+.PC .container .forMainPc {
+  margin-top: 20rem;
+  position: relative;
+  transform: translateX(61rem);
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5.6rem;
+}
+.PC .container .forMainPc .pcImg {
+  position: absolute;
+  top: -8rem;
+  left: -105rem;
+  width: 80.2rem;
+}
+.PC .container .forMainPc .card {
+  width: 350px;
+  transform: translateX(-120px);
+}
+.PC .container .forMainPc .card h3 {
+  color: #4c545c;
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: -0.0391rem;
+}
+.PC .container .forMainPc .card p {
+  margin-top: 1.5rem;
+  color: #9eabb2;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: 0.012rem;
+}
+
+.MOBILE .container {
+  margin-top: 200px;
+}
+.MOBILE .container img {
+  margin-top: 10rem;
+  width: 90.5rem;
+}
+
+.workfollow .container .three {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7.6rem;
+}
+.workfollow .container .three .card {
+  text-align: center;
+  width: 35rem;
+}
+.workfollow .container .three .card img {
+  width: 3.6rem;
+}
+.workfollow .container .three .card h4 {
+  color: #4c545c;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: -0.0391rem;
+  margin-top: 4rem;
+}
+.workfollow .container .three .card p {
+  margin-top: 1.5rem;
+  color: #9eabb2;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: 0.012rem;
+}
+.workfollow .container .logos {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.workfollow .container .logos img {
+  image-rendering: optimizeQuality;
+  zoom: 1rem;
+}
+
+.downloud .container {
+  margin: 15rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.downloud .container h1 {
+  margin: 5.6rem 0 1.8rem;
+  color: #4c545c;
+  text-align: center;
+  font-size: 4.6rem;
+  font-weight: 600;
+  letter-spacing: -0.075rem;
+}
+.downloud .container .topP,
+.downloud .container p {
+  width: 72rem;
+  color: #9eabb2;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: 0.015rem;
+}
+.downloud .container .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  margin-top: 4.9rem;
+}
+
+footer {
+  background: rgba(158, 171, 178, 0.1002);
+  align-items: center;
+  height: 15rem;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16.5rem;
+}
+footer .container .forTxt {
+  height: 7.2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+}
+footer .container .forTxt svg {
+  margin-right: 13.5rem;
+}
+footer .container .forTxt a {
+  color: #4c545c;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: 0.0135rem;
+  width: 16rem;
+  text-decoration: none;
+}
+footer .container .forTxt a:active {
+  color: #26BBA4;
+}
+footer .container .social {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+footer .container .social a:active svg {
+  transform: scale(1.1);
+  fill: #26BBA4;
+}
+
+@media screen and (max-width: 1180px) {
+  body {
+    zoom: 0.85;
+  }
+}
+@media screen and (max-width: 1014px) {
+  body {
+    zoom: 0.75;
+  }
+}
+@media screen and (max-width: 892px) {
+  body {
+    zoom: 0.67;
+  }
+}
+@media screen and (max-width: 785px) {
+  body {
+    zoom: 0.6;
+  }
+}
+@media screen and (max-width: 685px) {
+  body {
+    zoom: unset;
+    background-image: url(../images/bg-header-mobile.png);
+  }
+  .btn {
+    width: 31.1rem;
+  }
+  .btn:hover {
+    transform: scale(unset);
+  }
+  .container {
+    max-width: 31.1rem;
+    margin: auto 2rem;
+  }
+  .forTitle {
+    width: 31rem;
+  }
+  .forTitle h2 {
+    width: 31rem;
+  }
+  .forTitle p {
+    width: 31.1rem;
+    font-size: 1.6rem;
+  }
+  header .container .logo {
+    margin-top: 12.5rem;
+  }
+  header .container h1 {
+    margin: 5.6rem 0 1.8rem;
+    font-size: 3.2rem;
+    letter-spacing: -0.052rem;
+  }
+  header .container .topP,
+  header .container p {
+    font-size: 2.5rem;
+    letter-spacing: 0.012rem;
+    width: 31.1rem;
+  }
+  header .container .buttons {
+    flex-direction: column;
+  }
+  .PC .container .forMainPc {
+    transform: unset;
+    width: 35rem;
+    gap: 5.6rem;
+    margin-top: 40rem;
+  }
+  .PC .container .forMainPc .pcImg {
+    top: -30rem;
+    left: 0rem;
+    width: 31rem;
+  }
+  .PC .container .forMainPc .card {
+    margin-top: 2rem;
+    width: 31rem;
+    transform: translateX(10px);
+  }
+  .PC .container .forMainPc .card h3 {
+    text-align: center;
+    font-size: 2.4rem;
+  }
+  .PC .container .forMainPc .card p {
+    width: 30rem;
+    text-align: center;
+  }
+  .MOBILE .container {
+    margin-top: 0px;
+  }
+  .MOBILE .container img {
+    transform: unset;
+    width: 31rem;
+  }
+  .workfollow .container .three {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .workfollow .container .three .card {
+    width: 31rem;
+  }
+  .workfollow .container .logos {
+    margin-top: 15rem;
+    flex-direction: column;
+    gap: 8rem;
+  }
+  .downloud .container h1 {
+    font-size: 2.8rem;
+  }
+  .downloud .container .topP,
+  .downloud .container p {
+    width: 30rem;
+  }
+  .downloud .container .buttons {
+    flex-direction: column;
+  }
+  footer {
+    height: unset;
+    padding-bottom: 5rem;
+  }
+  footer .container {
+    flex-direction: column;
+    width: 31rem;
+    text-align: center;
+    gap: 5rem;
+  }
+  footer .container .forTxt {
+    height: unset;
+    gap: 5rem;
+    -moz-column-gap: unset;
+         column-gap: unset;
+  }
+  footer .container .forTxt svg {
+    margin-right: unset;
+    margin-bottom: 3rem;
+  }
+  footer .container .social {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+  }
+  footer .container .social a:active {
+    transform: scale(1.1);
+  }
+}/*# sourceMappingURL=style.css.map */
